@@ -74,7 +74,8 @@ public final class SQLServerParameterMetaData implements ParameterMetaData {
         return traceID;
     }
 
-    /* Used for prepared statement meta data */
+    
+    static/* Used for prepared statement meta data */
     class QueryMeta {
         String parameterClassName = null;
         int parameterType = 0;

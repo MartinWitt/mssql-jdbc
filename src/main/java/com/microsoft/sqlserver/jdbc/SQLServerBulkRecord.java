@@ -16,8 +16,7 @@ import java.util.Map.Entry;
  * Abstract class that implements ISQLServerBulkRecord
  *
  */
-@SuppressWarnings("deprecation")
-abstract class SQLServerBulkRecord implements ISQLServerBulkRecord {
+@SuppressWarnings("deprecation")abstractclass SQLServerBulkRecord implements ISQLServerBulkRecord {
 
     /**
      * Update serialVersionUID when making changes to this file
@@ -27,7 +26,7 @@ abstract class SQLServerBulkRecord implements ISQLServerBulkRecord {
     /*
      * Class to represent the column metadata
      */
-    protected class ColumnMetadata {
+    protected static class ColumnMetadata {
         String columnName;
         int columnType;
         int precision;
